@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadhna | Cybersecurity & AI Engineer</title>
+    <meta name="description" content="Professional portfolio of Sadhna, a Cybersecurity, AI, and Software Engineering expert.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="dark-theme">
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Sadhna<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn">
+            <i class="fa-solid fa-sun light-icon"></i>
+            <i class="fa-solid fa-moon dark-icon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section with Video Background -->
+    <section id="home" class="hero">
+        <div class="video-container">
+            <video autoplay loop muted playsinline id="hero-video">
+                <source src="./assets/Sadhna.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content reveal-up">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="name">Sadhna</h1>
+            <h3 class="role">BCA Student | Aspiring Software Engineer | Cybersecurity and AI Enthusiast | Building Real-World Projects</h3>
+            <p class="summary">National AI Make-a-thon 2nd Prize Winner. Architecting secure backends, robust authentication mechanisms, and intelligent systems.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="https://github.com/sadhna1118" target="_blank" class="btn btn-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sadhna1615b333b" target="_blank" class="btn btn-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://x.com/techy_sadhna" target="_blank" class="btn btn-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/tech_withsd/?hl=en" target="_blank" class="btn btn-icon"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal-left">
+                    <p>I am a proactive BCA candidate (Graduating 2027) with a deep passion for <strong>application security, secure backend architecture, and AI-integrated systems</strong>. My expertise lies in Python, SQL, containerization (Docker), and implementing robust identity controls like JWT and RBAC.</p>
+                    <br>
+                    <p>I am seeking opportunities as a Cybersecurity Analyst or Application Security Associate to apply threat mitigation, system hardening, and secure development practices.</p>
+                    
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <i class="fa-solid fa-trophy"></i>
+                            <div>
+                                <h4>2nd Prize Winner</h4>
+                                <span>National AI Make-a-thon (Dell & Learning Links)</span>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fa-solid fa-certificate"></i>
+                            <div>
+                                <h4>AI & Employability Certified</h4>
+                                <span>Dell Technologies & Infosys Springboard</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats reveal-right">
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Years of Academic & Practical Coding</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Real-world Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>4+</h3>
+                        <p>Certifications Earned</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding bg-alt">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Technical <span>Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal-up" style="transition-delay: 0.1s;">
+                    <i class="fa-solid fa-shield-halved skill-icon"></i>
+                    <h3>Security & Auth</h3>
+                    <ul class="skill-list">
+                        <li>Role-Based Access Control (RBAC)</li>
+                        <li>JSON Web Tokens (JWT)</li>
+                        <li>Identity & Access Management (IAM)</li>
+                        <li>Biometric Verification</li>
+                        <li>API Security & OWASP Top 10</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category reveal-up" style="transition-delay: 0.2s;">
+                    <i class="fa-solid fa-code skill-icon"></i>
+                    <h3>Programming</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Dart</span>
+                        <span class="tag">HTML5/CSS3</span>
+                        <span class="tag">Shell/Bash</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-up" style="transition-delay: 0.3s;">
+                    <i class="fa-solid fa-server skill-icon"></i>
+                    <h3>Backend & Infra</h3>
+                    <ul class="skill-list">
+                        <li>Flask & REST APIs</li>
+                        <li>Docker & Docker Compose</li>
+                        <li>Microservices Architecture</li>
+                        <li>SQL & Relational DBs</li>
+                        <li>Firebase Firestore (Security Rules)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+            
+            <div class="project-grid">
+                <!-- Featured Project 1 -->
+                <div class="project-card reveal-up">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>ThreatGraph-X</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/sadhna1118/ThreatGraph-X" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">Threat Hunting & Attack-Chain Intelligence Platform that converts raw security telemetry into connected entities, investigation graphs, and actionable defense intelligence.</p>
+                        <ul class="project-bullets">
+                            <li>Graph-powered multi-hop attack chain analysis (Neo4j + NetworkX)</li>
+                            <li>Automated MITRE ATT&CK Matrix mapping & anomaly detection</li>
+                            <li>Grounded AI Security Analyst Assistant for instant triage</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Python</span><span>FastAPI</span><span>React</span><span>TypeScript</span><span>Neo4j</span><span>PostgreSQL</span><span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Project 2 -->
+                <div class="project-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>SentinelSOC</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/sadhna1118/SentinelSOC" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">Security Operations & Incident Triage Platform tailored for ingestion, real-time detection rule evaluation, alert correlation, and SOC workflow automation.</p>
+                        <ul class="project-bullets">
+                            <li>Live event telemetry streaming via WebSockets</li>
+                            <li>Custom YAML detection rule engine & alert scoring</li>
+                            <li>Accelerated incident investigation and log correlation</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Python</span><span>FastAPI</span><span>WebSockets</span><span>Pydantic</span><span>YAML</span><span>AsyncIO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Project 3 -->
+                <div class="project-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>CyberRange</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/sadhna1118/CyberRange" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">Practical Cybersecurity Lab & Simulation Ground for offensive/defensive tooling, network traffic capture, and vulnerability remediation.</p>
+                        <ul class="project-bullets">
+                            <li>Network traffic analysis & packet dissection (Wireshark/TShark)</li>
+                            <li>Vulnerability exploitation & defense playbooks (Nmap, Gobuster)</li>
+                            <li>Automated audit logging & security scenario walkthroughs</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Python</span><span>Kali Linux</span><span>Bash</span><span>Nmap</span><span>Wireshark</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Project 4 -->
+                <div class="project-card reveal-up">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Voice & Agentic RAG</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/sadhna1118/Voice-RAG-project" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">Intelligent Retrieval-Augmented Generation (RAG) Suite with multi-agent orchestration and voice interaction capabilities.</p>
+                        <ul class="project-bullets">
+                            <li>Real-time voice query pipeline with multi-step reasoning agents</li>
+                            <li>Evidence-grounded retrieval from complex enterprise & security knowledge bases</li>
+                            <li>Hallucination-resistant context synthesis & tool calling</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Python</span><span>RAG</span><span>Vector DB</span><span>LLMs</span><span>LangChain / Agents</span><span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Project 5 -->
+                <div class="project-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>FemCare</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/sadhna1118/Femcare" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">AI-powered Female Health Companion providing personalized wellness insights, intelligent symptom tracking, and secure health data management.</p>
+                        <ul class="project-bullets">
+                            <li>Interactive AI wellness assistant and personalized cycles tracker</li>
+                            <li>Secure, privacy-first database architecture with Firebase</li>
+                            <li>Modern, accessible, intuitive user experience</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Flutter / React</span><span>Firebase</span><span>Python / AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Project 6 -->
+                <div class="project-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Enterprise Data Analytics Suite</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/sadhna1118/zomato-dashboard-Power-BI" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-desc">Data Analytics & Predictive Modeling Portfolio converting raw unstructured datasets into actionable business intelligence and dashboards.</p>
+                        <ul class="project-bullets">
+                            <li>Zomato Power BI Dashboard: Order patterns, revenue & customer analytics</li>
+                            <li>Retail Sales SQL Engine: Complex multi-table joins, KPIs & cohort insights</li>
+                            <li>Housing Price ML: Regression prediction modeling in Python</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Power BI</span><span>SQL</span><span>DAX</span><span>Python</span><span>Pandas</span><span>NumPy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic GitHub Projects -->
+            <div class="section-title reveal-up" style="margin-top: 8rem; margin-bottom: 3rem;">
+                <h2>More <span>GitHub Projects</span></h2>
+                <p style="color: var(--text-secondary); margin-top: 1rem;">Automatically fetched from my GitHub repository.</p>
+            </div>
+            
+            <div class="project-grid" id="github-projects-grid">
+                <!-- Projects will be injected here by script.js -->
+            </div>
+
+            <!-- View All / Show Less Button Container -->
+            <div class="view-all-container reveal-up" id="github-view-all-container" style="display: none;">
+                <button id="toggle-github-projects-btn" class="view-all-btn" type="button" aria-expanded="false">
+                    <span id="toggle-btn-text">View All Projects</span>
+                    <i id="toggle-btn-icon" class="fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding bg-alt">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Get In <span>Touch</span></h2>
+                <p>Always open to discussing new opportunities in Cybersecurity and Application Security.</p>
+            </div>
+            <div class="contact-content reveal-up">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:sadhanakumari181106@gmail.com">sadhanakumari181106@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Sadhna. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/sadhna1118" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sadhna1615b333b" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://x.com/techy_sadhna" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/tech_withsd/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
